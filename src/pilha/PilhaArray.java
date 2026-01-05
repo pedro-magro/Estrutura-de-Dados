@@ -26,5 +26,7 @@ public class PilhaArray {
     public int peek(){
         return dados[topo];
     }
+
+    public int size(){return topo;}
 }
 
